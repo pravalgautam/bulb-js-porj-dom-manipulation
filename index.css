@@ -1,0 +1,35 @@
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+
+}
+
+#btn {
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 30px auto;
+    background-image: linear-gradient(white,#C850C0);
+  }
+  #btn:hover{
+    background-image: linear-gradient(red,pink);
+    color: wheat;
+  }
+  #btn:active{
+    background-color: plum;
+    color: rgb(166, 125, 49);
+  }
+  
